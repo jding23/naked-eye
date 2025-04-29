@@ -79,10 +79,10 @@ Color_matrix_origin = Constructing_structure(eye,x_total,y_total,z_total,deep,wa
 Color_matrix = Exit_effect(screens,Color_matrix_origin, 0.2);
 
 % Set the number of layers and load them layer by layer.
-numFrames = 10;
+numFrames = 100;
 for i = 1:numFrames
 condition_all = false(0,1);
-k = i/10.0;
+k = i/100.0;
 
 layer_cross_point_1 = Cross_through_screens(eye,corner1,k);
 layer_cross_point_2 = Cross_through_screens(eye,corner2,k);
@@ -119,7 +119,7 @@ figure;
 hold on;
 scatter3(points3D(:,1),points3D(:,2),points3D(:,3), ...
     5,"red",'filled');
-h1 = surf(x_total, y_total, z_total,'FaceAlpha', 0.8, 'CData',Color_matrix, 'FaceColor', 'texturemap');% »æÖÆ±íÃæ£¬²¢»ñÈ¡¾ä±ú
+h1 = surf(x_total, y_total, z_total,'FaceAlpha', 0.8, 'CData',Color_matrix, 'FaceColor', 'texturemap');% Â»Ã¦Ã–Ã†Â±Ã­ÃƒÃ¦Â£Â¬Â²Â¢Â»Ã±ÃˆÂ¡Â¾Ã¤Â±Ãº
 shading interp;
 hold off;
 

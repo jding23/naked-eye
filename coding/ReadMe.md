@@ -15,4 +15,4 @@ This model primarily achieves a 3D presentation effect of point cloud maps on th
 Matlab 2019b or newer. Older visions may be sufficient but have not been tested.
 
 ## Quick Start
-- **Splicing screen effect demonstration.** [`demo`]() includes two types of demonstrations: dual-screen splicing and three-screen splicing.
+- **Splicing screen effect demonstration.** [`demo`](https://github.com/jding23/naked-eye/edit/main/coding/demo) includes two types of demonstrations: dual-screen splicing and three-screen splicing.
